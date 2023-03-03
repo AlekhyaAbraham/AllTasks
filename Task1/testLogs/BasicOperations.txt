@@ -1,0 +1,68 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Wed, 15 Feb 2023 08:24:12 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wloBRI%2Ftq4oC8dExm2M%2B1ZOUrmLNcocF4pBnnFBJEq%2FrGwBhtZu5fLc20VG7WCZM34ZNQGfc0iFsOvR%2FLOLKHUfa%2FCxz%2FU0x1Uao8aRVf5EcBb6AEXysemxYbQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 799ca554a9353c06-BLR
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "asdfsadf@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 400 Bad Request
+Date: Wed, 15 Feb 2023 08:24:13 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tIly5eRzLqfMzxT7HG5Z%2BJzMy5re%2B5caVR4EbUj7z9JTQcLdJ8hxnxJ%2Bf2rjqqiz2xnw%2Fea5z2q3fp4LKmU9W%2F%2FleS4PQCHFg67lVZApQCEfGsGpQevifXPhFA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 799ca557ef053c0d-BLR
+
+{
+    "error": "user not found"
+}
