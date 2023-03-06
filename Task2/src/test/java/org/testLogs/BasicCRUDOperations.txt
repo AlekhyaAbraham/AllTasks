@@ -1,0 +1,204 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Fri, 24 Feb 2023 12:49:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DZSJwQu%2FtdFIFI692zcuZvjKMPTqRukiDbD5wHrVa14AG5i9ZoW3C5caQx0SKiv9HCDY8Pq%2BHWB3ginrtG25zqMJJSva%2FOh05Izcbzwd0PB7cA84hoyw4CTYRQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e852f2b81ff303-BOM
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "asdfsadf@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 400 Bad Request
+Date: Fri, 24 Feb 2023 12:49:56 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dNWYRHWlJnfiGPTIYYkNwDUwjKJ1WV%2B46fSqc6D6tQjCNxwnszO%2F%2BDNwakINLAWiuhct3vrb8AKeDC4o8LOXKJa%2BspXgR3A7fVcXde2VMlCgtMDgtuP19i%2BK6w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e852f72aa685e5-BOM
+
+{
+    "error": "user not found"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Alekhya",
+    "job": "Associate Engineer 2"
+}
+HTTP/1.1 201 Created
+Date: Fri, 24 Feb 2023 12:49:57 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 97
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"61-/Ycz/6cNwDWLazyQPc3ZexlfbNE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Nghbh4ivCm5%2FLZXoFVZ%2BJfWX6ZPQzhqiXya1sEZcPhckzn5w8a4jasDceNiHlbJIyRM9PNVgkc3ib5OfetP6lxkZrM8sbVhH%2BX1utivTcHw4JKArVmQxef6qvA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e852fbabadf3a9-BOM
+
+{
+    "name": "Alekhya",
+    "job": "Associate Engineer 2",
+    "id": "399",
+    "createdAt": "2023-02-24T12:49:57.384Z"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+HTTP/1.1 201 Created
+Date: Fri, 24 Feb 2023 12:49:58 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"33-d7cUYGUG9YoXPTMcDrXUgSrda5Q"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RVlMRtUuKkfqQXKrRynsnRyHNkHe8o7G9PpVZBQemUFuVB1z25Q5HgFh0iNvCaxvHwk2L5wCYHvlbyWRekgRDTBv%2Bsh3fcdcSMhX%2B3MF%2BVfAP%2FJmeQjRQdkRaA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e85303e934f488-BOM
+
+{
+    "id": "613",
+    "createdAt": "2023-02-24T12:49:58.695Z"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Alekhya Abraham",
+    "job": "Associate Engineer ii"
+}
+HTTP/1.1 201 Created
+Date: Fri, 24 Feb 2023 12:49:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 106
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"6a-FdgglkskF/x7/9HGO2GrZVCwpYE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NMHk2nJDzBNsh6OONEZSMQSzAk5q0Gu66YpK60yqD3sPi4Ee%2FLjVSoxJXOxU5AvI2SBNkQabFMxXA0K7m%2FffPGIiogF3EBJjo02Y3D8jgQVgjm2YQLcNSd3wEg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e853073b70f4df-BOM
+
+{
+    "name": "Alekhya Abraham",
+    "job": "Associate Engineer ii",
+    "id": "252",
+    "createdAt": "2023-02-24T12:49:59.222Z"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+HTTP/1.1 201 Created
+Date: Fri, 24 Feb 2023 12:49:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"33-VQq2x1pUZH7exQVPE/Rnc3tSTdM"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JJ8yYi6ovpYCze4HPySbxj5yjN4gTgwnN4DSrsWIWt7a3q8HwgIP5Tg1ztWDky1IuRnKJ%2F7bjeuXsIqCo5U4U5%2Bl2Ztan9eX9DeGpGEhOymW6P8JCRnLUMBu4w%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79e8530af92285dc-BOM
+
+{
+    "id": "898",
+    "createdAt": "2023-02-24T12:49:59.828Z"
+}
