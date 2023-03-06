@@ -1,0 +1,102 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 200 OK
+Date: Mon, 06 Mar 2023 18:13:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 29
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FdMABSBsVXXzxVySjjKnzbQOYWFiDQg2EYQr5DBklGhOHN0r65TUSZYtJeaWSaPbWq8aSlEbGRfXIH%2FjkJFJPFIoCA9B8kgQBu0k8M%2FQ6AY6kf9e97UolCT0LA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7a3c92994ab783f3-BLR
+
+{
+    "token": "QpwL5tke4Pnpja7X4"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "asdfsadf@reqres.in",
+    "password": "cityslicka"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 06 Mar 2023 18:13:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=na6j5WAJdC0bLcRX0wL9P0b8KqiPoMGGmnr8FfwvL2pIUvD49T0uGNkg%2BwajfS63oBeBJe0odZTHsyqG5jC3vowjx%2Fe6EwZ%2Bw7EwgMXZQyA7%2FZB87yhQZV3snA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7a3c929cce4e3c07-BLR
+
+{
+    "error": "user not found"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "peter@klaven",
+    "password": "null"
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 06 Mar 2023 18:13:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 26
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"1a-EGIcyP6BIiCXl5Gb1aph5CGf4VQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0C74LjlokINxBpqckOsy1y0DBy1703B8%2F9ck9tqanmA%2FykkU8ckTOU9sm5lM%2Bno6ldT%2B%2Bx3w4bMSpaqEIw89oMM4i5aFUlTuOgbTAUInZFRdon6grYbFRE3Wrg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7a3c929f386a3c0c-BLR
+
+{
+    "error": "user not found"
+}
